@@ -1,0 +1,16 @@
+# Local credentials and environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Deployment archives and transient files
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.log
+.DS_Store
+Thumbs.db
+node_modules/
